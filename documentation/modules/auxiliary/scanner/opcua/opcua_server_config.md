@@ -21,7 +21,7 @@ It may be required for some server instances and OPC UA implementations that the
 3. Do: `set rport <port>`
 4. Set up the authentication method via one of the following:
    * Anonymous (default): `set authentication Anonymous` and `set username ""` and `set password ""`
-   * Username and Password: `set autehtication Username` and `set username <username>` and `set password <password>`
+   * Username and Password: `set authentication Username` and `set username <username>` and `set password <password>`
    * Certificates: `set authentication Certificate` and `set certificate <file>` and `set privatekey <file>` and `set policy <policy>`
 5. Set up the security mode and security policy of the endpoint you want to connect to:
    * None (default): `set mode None`
